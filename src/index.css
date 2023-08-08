@@ -14,7 +14,23 @@
 
     li{
         @apply bg-[#181818];
-        @apply rounded-[10px];
+        @apply rounded-[0.5rem];
         @apply cursor-pointer;
     }
+}
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover {
+    
+    background-image: linear-gradient(
+        to bottom,
+        #642EFF,
+        #8A61FF
+        )!important;
 }
