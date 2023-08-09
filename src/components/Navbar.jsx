@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 w-full h-[120px] flex justify-center items-center px-4 bg-[#101010] text-white">
+    <div className="fixed top-0 w-full h-24 flex justify-center items-center px-4 bg-[#101010] text-white">
       {/* menu */}
       <ul className="hidden md:flex gap-8">
         <Link to="home" smooth={true} duration={500}>

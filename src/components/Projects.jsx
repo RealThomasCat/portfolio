@@ -3,13 +3,13 @@ import Working from "../assets/projects/workImg.jpeg";
 
 const Projects = () => {
   return (
-    <div name="projects" className="w-full h-screen">
-      <div className="flex flex-row justify-center mb-16">
+    <div name="projects" className="w-full h-screen flex flex-col justify-between items-center pt-28 pb-6">
+      <div className="flex flex-row justify-center w-full">
         <h1 className="text-white bg-[#181818] py-3 px-8 text-2xl rounded-[0.5rem]">
           Projects
         </h1>
       </div>
-      <div className="max-w-[1000px] mx-auto grid sm:grid-cols-2 md:grid-cols-2 gap-6 px-6">
+      <div className="max-w-[1000px] mx-auto grid sm:grid-cols-2 md:grid-cols-2 gap-6 w-full">
         <div
           style={{ backgroundImage: `url(${Working})` }}
           className="group content-div bg-[#181818] p-6 rounded-[1rem] flex justify-center items-center"
