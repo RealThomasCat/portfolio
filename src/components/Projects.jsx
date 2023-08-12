@@ -10,8 +10,8 @@ const Projects = () => {
       name="projects"
       className="w-full h-screen flex flex-col justify-between items-center pt-28 pb-6"
     >
-      <div className="flex flex-row justify-center w-full">
-        <h1 className="text-white bg-[#181818] py-3 px-8 text-2xl rounded-[0.5rem]">
+      <div className="flex flex-row justify-center w-full mb-12">
+        <h1 className="text-white bg-[#181818] py-3 px-8  text-2xl rounded-[0.5rem]">
           Projects
         </h1>
       </div>

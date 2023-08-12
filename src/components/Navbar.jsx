@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+
   const handleClick = () => {
     setNav(!nav);
   };
@@ -39,7 +40,17 @@ const Navbar = () => {
         onClick={handleClick}
         className="md:hidden ml-auto z-10 hover:cursor-pointer"
       >
-        {!nav ? <FaBars size={25} /> : <FaTimes size={25} />}
+        {!nav ? (
+          <FaBars
+            className="text-[#ffffff] hover:text-[#642EFF] duration-500"
+            size={25}
+          />
+        ) : (
+          <FaTimes
+            className="text-[#ffffff] hover:text-[#642EFF] duration-500"
+            size={25}
+          />
+        )}
       </div>
 
       {/* mobile menu */}
