@@ -1,5 +1,6 @@
 import React from "react";
 import Socials from "./Socials";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -19,9 +20,11 @@ const Home = () => {
             I design and code beautiful simple things and I love to do that.
           </h1>
           <div className="flex justify-center mt-8 mb-5">
-            <button className="bg-gradient-to-b from-[#642EFF] to-[#8A61FF] py-3 px-8 rounded-full text-lg font-medium shadow-[inset_0_4px_4px_rgba(255,255,255,0.25)] hover:translate-y-[-0.4rem] duration-500">
-              View Work
-            </button>
+            <Link to="projects" smooth={true} duration={500}>
+              <button className="bg-gradient-to-b from-[#642EFF] to-[#8A61FF] py-3 px-8 rounded-full text-lg font-medium shadow-[inset_0_4px_4px_rgba(255,255,255,0.25)] hover:translate-y-[-0.4rem] duration-500">
+                View Work
+              </button>
+            </Link>
           </div>
         </div>
         <Socials />
