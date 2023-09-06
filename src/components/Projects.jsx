@@ -1,5 +1,5 @@
 import React from "react";
-import Amazon from "../assets/projects/amazon-clone.png";
+import CarHub from "../assets/projects/carHub.png";
 import Exercise from "../assets/projects/exercise-app.png";
 import Weather from "../assets/projects/weather-app.png";
 import UiUx from "../assets/projects/uiux.png";
@@ -17,21 +17,24 @@ const Projects = () => {
       </div>
       <div className="max-w-[1000px] mx-auto grid sm:grid-cols-2 md:grid-cols-2 gap-6 w-full">
         <div
-          style={{ backgroundImage: `url(${Amazon})` }}
+          style={{ backgroundImage: `url(${CarHub})` }}
           className="group content-div bg-[#181818] p-6 rounded-[1rem] flex justify-center items-center"
         >
           <div className="opacity-0 group-hover:opacity-100 duration-500">
             <span className="flex text-2xl font-bold text-white justify-center">
-              Amazon Clone
+              CarHub (Next.js)
             </span>
             <div className="pt-6 text-center">
-              <a href="/">
+              <a
+                href="https://github.com/RealThomasCat/car-showcase"
+                target="_blank"
+              >
                 <button className="text-center rounded-[1rem] text-white bg-[#181818] px-4 py-3 m-2 font-bold text-lg hover:translate-y-[-0.4rem] duration-500">
                   Demo
                 </button>
               </a>
               <a
-                href="https://github.com/RealThomasCat/amazon-clone"
+                href="https://github.com/RealThomasCat/car-showcase"
                 target="_blank"
               >
                 <button className="text-center rounded-[1rem] text-white bg-[#181818] px-4 py-3 m-2 font-bold text-lg hover:translate-y-[-0.4rem] duration-500">
@@ -47,7 +50,7 @@ const Projects = () => {
         >
           <div className="opacity-0 group-hover:opacity-100 duration-500">
             <span className="flex text-2xl font-bold text-white justify-center">
-              Exercise App
+              Exercise App (React.js)
             </span>
             <div className="pt-6 text-center">
               <a href="https://rtc-react-gym.netlify.app/" target="_blank">
